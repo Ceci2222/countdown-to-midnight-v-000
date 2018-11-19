@@ -8,7 +8,7 @@ end
 def countdown
   count = 10
   while count > 0
-    puts "#{count} SECOND(S)!"
+    puts "#{count}SECOND(S)!"
     count -= 1
     countdown_with_sleep(1)
   end
